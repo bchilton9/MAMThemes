@@ -1,0 +1,265 @@
+/* =========================================================
+   MAM Blue Purple Silver Theme
+   ========================================================= */
+
+:root{
+  --main-text-color:#d7dde7 !important;
+  --text-important:#f5f7fb !important;
+
+  --main-border:#7f8aa3 !important;
+  --secondary-border:#1a2230 !important;
+  --tertiary-border:#56627a !important;
+  --container-border:#364155 !important;
+  --alternative-border-background:#2b3446 !important;
+
+  --main-background:#0b0f17 !important;
+  --secondary-background:#111827 !important;
+  --tertiary-background:#1a2333 !important;
+  --light-background:#8e98ab !important;
+
+  --link-color:#8fc7ff !important;
+  --link-visited:#b8a7ff !important;
+  --link-hover:#d7e9ff !important;
+
+  --red-background:#7b2248 !important;
+  --red-background-font-color:#f5f7fb !important;
+  --red-background-link-color:#d6c2ff !important;
+
+  --orange-background:#7a4a1c !important;
+  --orange-background-font-color:#f5f7fb !important;
+  --orange-background-link-color:#ffe1b5 !important;
+
+  --green-background:#18392d !important;
+  --green-text:#79e2b5 !important;
+
+  --important-blue:#6ab0ff !important;
+}
+
+/* global text/background polish */
+html,body{
+  background:var(--main-background) !important;
+  color:var(--main-text-color) !important;
+}
+
+a,a:link,a:active{
+  color:var(--link-color) !important;
+}
+a:visited{
+  color:var(--link-visited) !important;
+}
+a:hover{
+  color:var(--link-hover) !important;
+}
+
+/* headers / table heads */
+th,
+td.colhead,
+td.rowhead,
+td.rowhead2,
+td.heading,
+.searchHead{
+  background:linear-gradient(180deg,#1d2740 0%, #141c2c 100%) !important;
+  color:var(--text-important) !important;
+  border-color:var(--secondary-border) !important;
+}
+
+/* normal content rows */
+.row1,
+.likeRow1,
+.altRowColors:nth-of-type(even) td,
+.alternateColor:nth-of-type(even),
+.forumViewTable>tbody tr:nth-of-type(even),
+.log_default td{
+  background-color:#101725 !important;
+  color:var(--main-text-color) !important;
+  border-color:var(--secondary-border) !important;
+}
+
+.row2,
+.altRowColors:nth-of-type(odd) td,
+.alternateColor:nth-of-type(odd),
+.forumViewTable>tbody tr:nth-of-type(odd){
+  background-color:#0d1420 !important;
+  color:var(--main-text-color) !important;
+  border-color:var(--secondary-border) !important;
+}
+
+.row3,
+.postBox:nth-of-type(even){
+  background-color:#182033 !important;
+}
+
+/* main blocks */
+div.blockHead,
+div.blockFoot,
+div.headRow,
+div.footRow{
+  background:linear-gradient(180deg,#2a3560 0%, #1a223c 100%) !important;
+  color:var(--text-important) !important;
+  border-color:#43506b !important;
+}
+
+div.blockBody div.blockBodyCon,
+.infobox,
+.tableb,
+.forumline{
+  background-color:#0f1624 !important;
+  color:var(--main-text-color) !important;
+  border-color:#2e394c !important;
+}
+
+/* buttons and controls */
+input,
+button,
+textarea,
+select,
+select>option{
+  background:#121a2a !important;
+  color:#e8edf7 !important;
+  border:1px solid #54627f !important;
+}
+
+button,
+input[type=button],
+input[type=submit],
+input[type=reset],
+a.buttonLink,
+.torSearchNav,
+.torFormButton{
+  background:linear-gradient(180deg,#455b8a 0%, #2b3957 100%) !important;
+  color:#f5f7fb !important;
+  border-color:#7083ac !important;
+  text-shadow:none !important;
+}
+
+button:hover,
+input[type=button]:hover,
+input[type=submit]:hover,
+input[type=reset]:hover,
+a.buttonLink:hover,
+.torSearchNav:hover,
+.torFormButton:hover{
+  background:linear-gradient(180deg,#5b73aa 0%, #35476b 100%) !important;
+  color:#ffffff !important;
+}
+
+/* selected search/category items */
+.torSearchNavAct,
+.torCatSelected,
+.searchInSel{
+  background:linear-gradient(180deg,#6e56cf 0%, #4a3b8a 100%) !important;
+  color:#fff !important;
+  border-color:#a895ff !important;
+}
+
+/* tags / pills */
+.torSeries>a,
+.torSeries>a:link,
+.torSeries>a:visited,
+.torNarrator>a,
+.torNarrator>a:link,
+.torNarrator>a:visited,
+.torFileTypes>a,
+.torFileTypes>a:link,
+.torFileTypes>a:visited,
+.torFileTypes>span>a,
+.torFileTypes>span>a:link,
+.torFileTypes>span>a:visited,
+a.author,
+a.author:link,
+a.author:visited,
+.torDetRight a.altColor,
+.torDetRight a.altColor:link,
+.torDetRight a.altColor:visited,
+.subBoard a,
+.subBoard a:link,
+.subBoard a:visited{
+  background:#222b43 !important;
+  color:#d9e8ff !important;
+  border:1px solid #4c5d83 !important;
+  border-radius:999px !important;
+}
+
+/* torrent detail boxes */
+div.torDetLeft{
+  background-color:#121a2a !important;
+  color:#f1f5ff !important;
+  border-color:#4f5c75 !important;
+}
+div.torDetRow{
+  border-top-color:#39465f !important;
+  border-right-color:#39465f !important;
+  border-left-color:#39465f !important;
+}
+div.torDetInnerCon{
+  border:1px solid #465473 !important;
+  box-shadow:0 6px 16px rgba(0,0,0,.28) !important;
+  background:#12192a !important;
+}
+div.torDetInnerTop{
+  background:#253252 !important;
+  color:#f5f7fb !important;
+}
+
+/* browse table polish */
+.newTorTable thead{
+  background:#18233a !important;
+}
+.newTorTable tbody tr:nth-of-type(odd){
+  background-color:#0f1624 !important;
+}
+.newTorTable tbody tr:nth-of-type(even){
+  background-color:#121b2c !important;
+}
+.newTorTable td,
+.newTorTable th{
+  border-color:#253149 !important;
+}
+
+/* shoutbox / tabs */
+#fpShout>div.tabs>ul,
+div#shoutbox>div.sbf div.dateBreak{
+  background:#1b2742 !important;
+}
+div#fpShout div.tabs li.ui-state-default:not(.ui-tabs-active){
+  background:#121a2a !important;
+}
+div#fpShout div.tabs li.ui-tabs-active a{
+  color:#ffffff !important;
+}
+div#shoutbox>div.sbf{
+  background:#0e1522 !important;
+}
+
+/* special banners/messages */
+.tmnb,.tmnb>a,.treasureHuntBanner{
+  background-color:#273b7a !important;
+  color:#eef3ff !important;
+}
+.tmng,.tmng>a{
+  background-color:#244536 !important;
+  color:#eefcf6 !important;
+}
+.tmn,.tmn>a,.topMess{
+  background-color:#5b2c5f !important;
+  color:#f8efff !important;
+}
+.topMess a,.topMess a:link,.topMess a:active,.topMess a:visited{
+  color:#f8efff !important;
+}
+
+/* minor polish */
+hr,
+.row1 hr{
+  background-color:#3a4660 !important;
+  color:#3a4660 !important;
+}
+
+.copyright{
+  color:#aeb8ca !important;
+}
+
+/* optional: make headings a touch brighter */
+h1,h2,h3,h4,h5,h6{
+  color:#eef3ff !important;
+}
