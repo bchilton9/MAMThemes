@@ -1,34 +1,34 @@
 :root{
-  --main-text-color:#d7dde7 !important;
-  --text-important:#f5f7fb !important;
+  --main-text-color:#eadfff !important;
+  --text-important:#fffaff !important;
 
-  --main-border:#7f8aa3 !important;
-  --secondary-border:#1a2230 !important;
-  --tertiary-border:#56627a !important;
-  --container-border:#364155 !important;
-  --alternative-border-background:#2b3446 !important;
+  --main-border:#8a72b8 !important;
+  --secondary-border:#1a1426 !important;
+  --tertiary-border:#6c5796 !important;
+  --container-border:#3a2f52 !important;
+  --alternative-border-background:#312845 !important;
 
-  --main-background:#0b0f17 !important;
-  --secondary-background:#111827 !important;
-  --tertiary-background:#1a2333 !important;
-  --light-background:#8e98ab !important;
+  --main-background:#0d0a14 !important;
+  --secondary-background:#161120 !important;
+  --tertiary-background:#21192f !important;
+  --light-background:#aa9bc7 !important;
 
-  --link-color:#8fc7ff !important;
-  --link-visited:#b8a7ff !important;
-  --link-hover:#d7e9ff !important;
+  --link-color:#c78cff !important;
+  --link-visited:#e0b7ff !important;
+  --link-hover:#f2ddff !important;
 
-  --red-background:#7b2248 !important;
-  --red-background-font-color:#f5f7fb !important;
-  --red-background-link-color:#d6c2ff !important;
+  --red-background:#7a224f !important;
+  --red-background-font-color:#fffaff !important;
+  --red-background-link-color:#f0d3ff !important;
 
   --orange-background:#7a4a1c !important;
-  --orange-background-font-color:#f5f7fb !important;
-  --orange-background-link-color:#ffe1b5 !important;
+  --orange-background-font-color:#fff7ef !important;
+  --orange-background-link-color:#ffe2bf !important;
 
-  --green-background:#18392d !important;
-  --green-text:#79e2b5 !important;
+  --green-background:#183628 !important;
+  --green-text:#7ce6a5 !important;
 
-  --important-blue:#6ab0ff !important;
+  --important-blue:#9a7cff !important;
 }
 
 html,body{
@@ -52,7 +52,7 @@ td.rowhead,
 td.rowhead2,
 td.heading,
 .searchHead{
-  background:linear-gradient(180deg,#1d2740 0%, #141c2c 100%) !important;
+  background:linear-gradient(180deg,#3a255d 0%, #24173d 100%) !important;
   color:var(--text-important) !important;
   border-color:var(--secondary-border) !important;
 }
@@ -63,7 +63,7 @@ td.heading,
 .alternateColor:nth-of-type(even),
 .forumViewTable>tbody tr:nth-of-type(even),
 .log_default td{
-  background-color:#101725 !important;
+  background-color:#15101f !important;
   color:var(--main-text-color) !important;
   border-color:var(--secondary-border) !important;
 }
@@ -72,32 +72,32 @@ td.heading,
 .altRowColors:nth-of-type(odd) td,
 .alternateColor:nth-of-type(odd),
 .forumViewTable>tbody tr:nth-of-type(odd){
-  background-color:#0d1420 !important;
+  background-color:#100c18 !important;
   color:var(--main-text-color) !important;
   border-color:var(--secondary-border) !important;
 }
 
 .row3,
 .postBox:nth-of-type(even){
-  background-color:#182033 !important;
+  background-color:#1b1530 !important;
 }
 
 div.blockHead,
 div.blockFoot,
 div.headRow,
 div.footRow{
-  background:linear-gradient(180deg,#2a3560 0%, #1a223c 100%) !important;
+  background:linear-gradient(180deg,#5a3d8a 0%, #352253 100%) !important;
   color:var(--text-important) !important;
-  border-color:#43506b !important;
+  border-color:#6f57a0 !important;
 }
 
 div.blockBody div.blockBodyCon,
 .infobox,
 .tableb,
 .forumline{
-  background-color:#0f1624 !important;
+  background-color:#120e1d !important;
   color:var(--main-text-color) !important;
-  border-color:#2e394c !important;
+  border-color:#3b3050 !important;
 }
 
 input,
@@ -105,9 +105,9 @@ button,
 textarea,
 select,
 select>option{
-  background:#121a2a !important;
-  color:#e8edf7 !important;
-  border:1px solid #54627f !important;
+  background:#171123 !important;
+  color:#f4edff !important;
+  border:1px solid #6f5b95 !important;
 }
 
 button,
@@ -117,9 +117,9 @@ input[type=reset],
 a.buttonLink,
 .torSearchNav,
 .torFormButton{
-  background:linear-gradient(180deg,#455b8a 0%, #2b3957 100%) !important;
-  color:#f5f7fb !important;
-  border-color:#7083ac !important;
+  background:linear-gradient(180deg,#7a5ab3 0%, #4a3270 100%) !important;
+  color:#fffaff !important;
+  border-color:#a589dc !important;
   text-shadow:none !important;
 }
 
@@ -130,16 +130,16 @@ input[type=reset]:hover,
 a.buttonLink:hover,
 .torSearchNav:hover,
 .torFormButton:hover{
-  background:linear-gradient(180deg,#5b73aa 0%, #35476b 100%) !important;
+  background:linear-gradient(180deg,#9572d6 0%, #5b3d88 100%) !important;
   color:#ffffff !important;
 }
 
 .torSearchNavAct,
 .torCatSelected,
 .searchInSel{
-  background:linear-gradient(180deg,#6e56cf 0%, #4a3b8a 100%) !important;
+  background:linear-gradient(180deg,#b05cff 0%, #6c2dad 100%) !important;
   color:#fff !important;
-  border-color:#a895ff !important;
+  border-color:#ddb0ff !important;
 }
 
 .torSeries>a,
@@ -163,86 +163,86 @@ a.author:visited,
 .subBoard a,
 .subBoard a:link,
 .subBoard a:visited{
-  background:#222b43 !important;
-  color:#d9e8ff !important;
-  border:1px solid #4c5d83 !important;
+  background:#261c38 !important;
+  color:#eddcff !important;
+  border:1px solid #6a5492 !important;
   border-radius:999px !important;
 }
 
 div.torDetLeft{
-  background-color:#121a2a !important;
-  color:#f1f5ff !important;
-  border-color:#4f5c75 !important;
+  background-color:#171123 !important;
+  color:#fff8ff !important;
+  border-color:#6b5790 !important;
 }
 div.torDetRow{
-  border-top-color:#39465f !important;
-  border-right-color:#39465f !important;
-  border-left-color:#39465f !important;
+  border-top-color:#493663 !important;
+  border-right-color:#493663 !important;
+  border-left-color:#493663 !important;
 }
 div.torDetInnerCon{
-  border:1px solid #465473 !important;
-  box-shadow:0 6px 16px rgba(0,0,0,.28) !important;
-  background:#12192a !important;
+  border:1px solid #634d87 !important;
+  box-shadow:0 6px 16px rgba(0,0,0,.30) !important;
+  background:#171221 !important;
 }
 div.torDetInnerTop{
-  background:#253252 !important;
-  color:#f5f7fb !important;
+  background:#4a2e75 !important;
+  color:#fffaff !important;
 }
 
 .newTorTable thead{
-  background:#18233a !important;
+  background:#261b3b !important;
 }
 .newTorTable tbody tr:nth-of-type(odd){
-  background-color:#0f1624 !important;
+  background-color:#120e1d !important;
 }
 .newTorTable tbody tr:nth-of-type(even){
-  background-color:#121b2c !important;
+  background-color:#171225 !important;
 }
 .newTorTable td,
 .newTorTable th{
-  border-color:#253149 !important;
+  border-color:#3b2f55 !important;
 }
 
 #fpShout>div.tabs>ul,
 div#shoutbox>div.sbf div.dateBreak{
-  background:#1b2742 !important;
+  background:#342452 !important;
 }
 div#fpShout div.tabs li.ui-state-default:not(.ui-tabs-active){
-  background:#121a2a !important;
+  background:#171123 !important;
 }
 div#fpShout div.tabs li.ui-tabs-active a{
   color:#ffffff !important;
 }
 div#shoutbox>div.sbf{
-  background:#0e1522 !important;
+  background:#110d19 !important;
 }
 
 .tmnb,.tmnb>a,.treasureHuntBanner{
-  background-color:#273b7a !important;
-  color:#eef3ff !important;
+  background-color:#543b8f !important;
+  color:#f2ecff !important;
 }
 .tmng,.tmng>a{
   background-color:#244536 !important;
   color:#eefcf6 !important;
 }
 .tmn,.tmn>a,.topMess{
-  background-color:#5b2c5f !important;
-  color:#f8efff !important;
+  background-color:#7a2c77 !important;
+  color:#fff0ff !important;
 }
 .topMess a,.topMess a:link,.topMess a:active,.topMess a:visited{
-  color:#f8efff !important;
+  color:#fff0ff !important;
 }
 
 hr,
 .row1 hr{
-  background-color:#3a4660 !important;
-  color:#3a4660 !important;
+  background-color:#4a3a65 !important;
+  color:#4a3a65 !important;
 }
 
 .copyright{
-  color:#aeb8ca !important;
+  color:#c2b7d7 !important;
 }
 
 h1,h2,h3,h4,h5,h6{
-  color:#eef3ff !important;
+  color:#fbf5ff !important;
 }
